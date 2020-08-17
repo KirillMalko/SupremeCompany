@@ -1,11 +1,12 @@
 
-body{
+body {
     width: 100%;
     color: #888;
     font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
 }
-header{
+
+header {
     margin: -10px;
     width: 1930px;
     height: 180px;
@@ -13,7 +14,8 @@ header{
     color: #ffffff;
 
 }
-.name{
+
+.name {
 
     display: inline-block;
     padding: 20px 0 10px 400px;
@@ -24,22 +26,25 @@ header{
     line-height: 44px;
     text-transform: uppercase;
 }
-.menu{
+
+.menu {
     display: inline-block;
     padding: 100px 70px 10px 10px;
     vertical-align: bottom;
     list-style: none;
     font-size: 18px;
 }
-nav{
+
+nav {
     float: left;
-    padding: ;-left: 15px;
+    padding-left: 15px;
     text-align: right;
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
-.info{
+
+.info {
     background: linear-gradient(to right, #a1d3b0, #f6f1d3);
     padding: 44px 0 22px 0;
     display: block;
@@ -51,7 +56,8 @@ nav{
     font-size: 21px;
     line-height: 33px;
 }
-.info1{
+
+.info1 {
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
@@ -61,48 +67,58 @@ nav{
     font: inherit;
     vertical-align: baseline;
 }
-.text{
+
+.text {
     font-weight: 100;
 }
-.description{
+
+.description {
     padding-left: 500px;
     margin-top: 80px;
     display: inline-block;
 
 }
-.price{
-    padding:0 1px 0  10px;
-    font-size:16    px ;
+
+.price {
+    padding: 0 1px 0 10px;
+    font-size: 16px;
     color: #a8a8a8;
 }
-.ticket{
+
+.ticket {
     color: #758265;
     font-weight: 100;
 }
-.list{
-    list-style: square;]
+
+.list {
+    list-style: square;
+]
 
 }
-.map{
+
+.map {
     width: 475px;
     float: right;
     display: inline-block;
-    padding: 25px 110px 0 0 ;
+    padding: 25px 110px 0 0;
 
 }
-.link{
+
+.link {
     text-decoration: none;
     color: #fff;
 }
-.link:hover{
+
+.link:hover {
     color: rgb(220, 179, 96);
     position: initial;
 }
+
 /*.link:active{
     transform: scale(2);
 }
 */
-.fot{
+.fot {
 
     margin-left: -10px;
     width: 1930px;
@@ -110,7 +126,41 @@ nav{
     height: 500px;
     margin-top: -20px;
 }
-#symbol{
+
+#symbol {
     padding: 50px 0 50px 250px;
 }
-/*  регистрация */
+
+@media (max-width: 1500px) {
+
+    header {
+        width: auto;
+        display: flex;
+        margin: auto;
+        height: auto;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin-right: -25px;
+        margin-left: -5px;
+    }
+
+    nav {
+        margin-top: 60px;
+    }
+
+    .info {
+        width: auto;
+        height: auto;
+        padding: 15px;
+
+    }
+
+    .name {
+        display: flex;
+        margin-right: -110px;
+    }
+
+    .text {
+        width: auto;
+    }
+}
